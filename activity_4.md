@@ -6,12 +6,12 @@ There's many different types of views, but a few are used a lot more than others
 
 Here's some of the more common attributes:
 
-| Attribute     | Effect                                   |      |
-| ------------- | ---------------------------------------- | ---- |
-| text          | The text value to show in the TextView   |      |
-| textStyle     | The style of front to use (e.g. bold/italic) |      |
-| fontFamily    | The font to use for the text             |      |
-| textAlignment | How to align the text within the view (center, left, top, etc...) |      |
+| Attribute     | Effect
+| ------------- | ----------------------------------------
+| text          | The text value to show in the TextView
+| textStyle     | The style of front to use (e.g. bold/italic)
+| fontFamily    | The font to use for the text
+| textAlignment | How to align the text within the view (center, left, top, etc...)
 
 ### Buttons
 `Buttons` are a pretty common part of any android app. Just like a textView, they have a text value which is displayed over the button. Clicking a button will do nothing by default, but you can register a callback using `setOnClickListener()`.
