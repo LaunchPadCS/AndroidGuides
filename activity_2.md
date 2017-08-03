@@ -2,7 +2,7 @@
 A pretty important part of any Android app is the interface that the user will see. In this lesson we'll briefly go over how to create a simple interface.
 
 ### What is a Layout File?
-When an activity is launched, you call `setContentView()` to tell Android to load up a layout file for your activity. Whatever interface is specified in that file will automatically be built and displayed to the user. Layout files are written in `xml`. As the name implies, *only* specify a layout. A layout file does not contain any of the main logic for your app.
+When an activity is launched, you call `setContentView()` to tell Android to load up a layout file for your activity. Whatever interface is specified in that file will automatically be built and displayed to the user. Layout files are written in `xml`. As the name implies, they *only* specify a layout. A layout file does not contain any of the main logic for your app.
 
 A layout file is created from `Views`. A view is just a type of object that you can render onto the screen. Views are things like buttons, text boxes, lists, or checkboxes. There's also  `View Groups` (also called `Layouts`), which aren't visible to the user, but instead contain other views.  Every Layout file will use one View Group as it's root, but it could contain many.
 
